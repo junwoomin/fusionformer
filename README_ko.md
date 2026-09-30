@@ -1,4 +1,4 @@
-![FusionFormer 원본 구조 스케치](assets/fusionformer-concept.png)
+![FusionFormer 원본 구조 스케치](fusionformer-concept.png)
 
 # FusionFormer
 
