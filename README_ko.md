@@ -1,3 +1,5 @@
+![FusionFormer 원본 구조 스케치](assets/fusionformer-concept.png)
+
 # FusionFormer
 
 [English](README.md)
@@ -5,8 +7,6 @@
 **상태: 아이디어 및 구조 스케치 단계.** 시간과 병행 연구의 제약으로 구현까지 진행하지 못한 연구 구상입니다. 학습된 모델이나 실행 코드를 제공하는 저장소는 아닙니다.
 
 자차에서 보이지 않는 영역을 이웃 차량의 BEV 특징으로 보완하는 FusionFormer를 구상했습니다. 차량마다 BEV 특징을 만든 뒤 위치 정보를 이용해 자차 좌표계로 정렬하고, transformer로 융합하는 구조입니다.
-
-![FusionFormer 원본 구조 스케치](assets/fusionformer-concept.png)
 
 ## 구상한 흐름
 
