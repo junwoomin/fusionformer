@@ -2,7 +2,6 @@
 
 [한국어](README_ko.md)
 
-
 **Status: research concept and architecture sketch.** Development stopped at the idea stage because of time and competing research work. This archive contains the design, not a trained model or an implementation.
 
 FusionFormer explores whether neighboring vehicles can supply BEV features for regions that the ego vehicle cannot observe. Each vehicle produces BEV features, the features are aligned using vehicle location information, and a transformer fuses the aligned representations.
@@ -31,7 +30,3 @@ These are open evaluation questions. No accuracy, latency, or communication resu
 ## Suggested evaluation when implementation resumes
 
 Compare ego-only perception, aligned feature fusion without attention, and transformer fusion on the same scenes. Separate occluded-region quality from overall perception quality. Report localization perturbations, delay, neighbor count, and bytes transmitted per frame alongside task metrics.
-
-## Source
-
-`그림 원본.pptx`, slide 1, and the author's explanation supplied with the archive. The image is an exported sketch. Slides 2 and 4 are outside this repository's scope.
