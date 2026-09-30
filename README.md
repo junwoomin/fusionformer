@@ -1,3 +1,5 @@
+![Original FusionFormer architecture sketch](assets/fusionformer-concept.png)
+
 # FusionFormer
 
 [한국어](README_ko.md)
@@ -5,8 +7,6 @@
 **Status: research concept and architecture sketch.** Development stopped at the idea stage because of time and competing research work. This archive contains the design, not a trained model or an implementation.
 
 FusionFormer explores whether neighboring vehicles can supply BEV features for regions that the ego vehicle cannot observe. Each vehicle produces BEV features, the features are aligned using vehicle location information, and a transformer fuses the aligned representations.
-
-![Original FusionFormer architecture sketch](assets/fusionformer-concept.png)
 
 ## Proposed architecture
 
