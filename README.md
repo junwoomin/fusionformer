@@ -1,4 +1,4 @@
-![Original FusionFormer architecture sketch](assets/fusionformer-concept.png)
+![Original FusionFormer architecture sketch](fusionformer-concept.png)
 
 # FusionFormer
 
