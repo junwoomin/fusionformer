@@ -4,7 +4,7 @@
 
 [한국어](README_ko.md)
 
-**Status: research concept and architecture sketch.** Development stopped at the idea stage because of time and competing research work. This archive contains the design, not a trained model or an implementation.
+**Status: paused at the foundational study and research-concept stage.** The work focused on learning core concepts, studying related papers, and sketching an architecture with the goal of writing a research paper. Practical research and project development remained limited. Time constraints from concurrent projects, limited computing resources, and insufficient personnel prevented progression to substantial model development and experimental validation. This repository records the resulting research concept and architecture sketch.
 
 FusionFormer explores whether neighboring vehicles can supply BEV features for regions that the ego vehicle cannot observe. Each vehicle produces BEV features, the features are aligned using vehicle location information, and a transformer fuses the aligned representations.
 
